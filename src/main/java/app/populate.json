@@ -37,92 +37,14 @@
     "user": { "id" : "304BF43E-0E62-4F4A-8A63-3F22D7AD4611" }
   },
    {
-  "_class": "app.entity.Posto",
-    "id": "7ad419fa-d4f7-11e7-9296-cec278b6b50a",
-    "bairro": "aldeota",
-    "cep": "60010135",
-    "cidade": "Fortaleza",
-    "logradouro": "Avenida Santos Dumont",
-    "nome": "Famas",
-    "numero": "80",
-    "UF": "CE"
+  "_class": "app.entity.PostoExt",
+    "id": "3B3093C7-FF42-4C0E-853A-0E01DB4FC6D4",
+    "name": "Multi 1"
   },
    {
-  "_class": "app.entity.Posto",
-    "id": "7ad41ce8-d4f7-11e7-9296-cec278b6b50a",
-    "bairro": "Vila Ellery",
-    "cep": "60320504",
-    "cidade": "Fortaleza",
-    "logradouro": "Avenida Sargento Hermínio Sampaio",
-    "nome": "Posto Henrique I - Posto BR",
-    "numero": "2500",
-    "UF": "CE"
-  },
-  {
-  "_class": "app.entity.Posto",
-    "id": "7ad428f0-d4f7-11e7-9296-cec278b6b50a",
-    "bairro": "Joaquim Távora",
-    "cep": "60115222",
-    "cidade": "Fortaleza",
-    "logradouro": "Avenida Rui Barbosa",
-    "nome": "Posto GB - Posto BR",
-    "numero": "2929",
-    "UF": "CE"
-  },
-  {
-  "_class": "app.entity.Posto",
-    "id": "7ad4308e-d4f7-11e7-9296-cec278b6b50a",
-    "bairro": "Damas",
-    "cep": "60425812",
-    "cidade": "Fortaleza",
-    "logradouro": "Avenida João Pessoa",
-    "nome": "Posto Ipiranga - J B M",
-    "numero": "3522",
-    "UF": "CE"
-  },
-  {
-  "_class": "app.entity.Posto",
-    "id": "7ad436d8-d4f7-11e7-9296-cec278b6b50a",
-    "bairro": "Vila Mariana",
-    "cep": "04102000",
-    "cidade": "São Paulo",
-    "logradouro": "Rua Vergueiro",
-    "nome": "R Três Auto Posto",
-    "numero": "1648",
-    "UF": "SP"
-  },
-  {
-  "_class": "app.entity.Posto",
-    "id": "7ad440ba-d4f7-11e7-9296-cec278b6b50a",
-    "bairro": "Liberdade",
-    "cep": " 01509010",
-    "cidade": "São Paulo",
-    "logradouro": "Rua Professor Antônio Prudente",
-    "nome": "Posto Ipiranga",
-    "numero": "47",
-    "UF": "SP"
-  },
-  {
-  "_class": "app.entity.Posto",
-    "id": "7ad446e6-d4f7-11e7-9296-cec278b6b50a",
-    "bairro": "Tatuapé",
-    "cep": "03064000",
-    "cidade": "São Paulo",
-    "logradouro": "Avenida Celso Garcia",
-    "nome": "Posto Itaim",
-    "numero": "5100",
-    "UF": "SP"
-  },
-  {
-  "_class": "app.entity.Posto",
-    "id": "7ad455be-d4f7-11e7-9296-cec278b6b50a",
-    "bairro": "Bela Vista",
-    "cep": "01314001",
-    "cidade": "São Paulo",
-    "logradouro": "Rua Santo Antônio",
-    "nome": "Auto Posto Sauípe",
-    "numero": "885",
-    "UF": "SP"
+  "_class": "app.entity.PostoExt",
+    "id": "92F18D07-00AE-4AE1-B6B2-8F2CE18786B1",
+    "name": "Admin 1"
   },
   {
   "_class": "app.entity.MarcaFIPE",
@@ -240,7 +162,7 @@
     "precoLitro": "3.99",
     "valor": "60.00",
      "carro": { "id" : "7ad4549c-d4f7-11e7-9296-cec278b6b50a" },
-    "posto": { "id" : "7ad436d8-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" : "3B3093C7-FF42-4C0E-853A-0E01DB4FC6D4" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -250,7 +172,7 @@
     "precoLitro": "3.99",
     "valor": "300.00",
      "carro": { "id" : "1350b5ec-d50e-11e7-9296-cec278b6b50a" },
-    "posto": { "id" : "7ad419fa-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" : "3B3093C7-FF42-4C0E-853A-0E01DB4FC6D4" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -260,7 +182,7 @@
     "precoLitro": "3.48",
     "valor": "50.00",
      "carro": { "id" : "7ad4393a-d4f7-11e7-9296-cec278b6b50a" },
-    "posto": { "id" : "7ad41ce8-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" : "3B3093C7-FF42-4C0E-853A-0E01DB4FC6D4" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -270,7 +192,7 @@
     "precoLitro": "3.99",
     "valor": "350.00",
      "carro": { "id" : "7ad43872-d4f7-11e7-9296-cec278b6b50a" },
-    "posto": { "id" : "7ad428f0-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" : "3B3093C7-FF42-4C0E-853A-0E01DB4FC6D4" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -280,7 +202,7 @@
     "precoLitro": "3.59",
     "valor": "350.00",
      "carro": { "id" :"1350b6d2-d50e-11e7-9296-cec278b6b50a" },
-    "posto": { "id" : "7ad455be-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" : "3B3093C7-FF42-4C0E-853A-0E01DB4FC6D4" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -290,7 +212,7 @@
     "precoLitro": "3.89",
     "valor": "190.00",
      "carro": { "id" :"1350b6d2-d50e-11e7-9296-cec278b6b50a" },
-    "posto": { "id" : "7ad455be-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" : "3B3093C7-FF42-4C0E-853A-0E01DB4FC6D4" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -300,7 +222,7 @@
     "precoLitro": "3.79",
     "valor": "220.00",
      "carro": { "id" :"7ad4549c-d4f7-11e7-9296-cec278b6b50a" },
-    "posto": { "id" : "7ad419fa-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" : "3B3093C7-FF42-4C0E-853A-0E01DB4FC6D4" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -310,7 +232,7 @@
     "precoLitro": "3.79",
     "valor": "220.00",
      "carro": { "id" :"7ad4549c-d4f7-11e7-9296-cec278b6b50a" },
-    "posto": { "id" : "7ad419fa-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" : "3B3093C7-FF42-4C0E-853A-0E01DB4FC6D4" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -320,7 +242,7 @@
     "precoLitro": "4.10",
     "valor": "280.00",
      "carro": { "id" :"7ad4393a-d4f7-11e7-9296-cec278b6b50a" },
-    "posto": { "id" : "7ad41ce8-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" : "3B3093C7-FF42-4C0E-853A-0E01DB4FC6D4" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -330,7 +252,7 @@
     "precoLitro": "4.20",
     "valor": "90.00",
      "carro": { "id" :"7ad43872-d4f7-11e7-9296-cec278b6b50a" },
-    "posto": { "id" : "7ad446e6-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" : "3B3093C7-FF42-4C0E-853A-0E01DB4FC6D4" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -340,7 +262,7 @@
     "precoLitro": "3.95",
     "valor": "200.00",
      "carro": { "id" :"7ad437aa-d4f7-11e7-9296-cec278b6b50a" },
-    "posto": { "id" :"7ad455be-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" :"3B3093C7-FF42-4C0E-853A-0E01DB4FC6D4" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -350,7 +272,7 @@
     "precoLitro": "3.95",
     "valor": "200.00",
      "carro": { "id" :"7ad437aa-d4f7-11e7-9296-cec278b6b50a" },
-    "posto": { "id" :"7ad455be-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" :"92F18D07-00AE-4AE1-B6B2-8F2CE18786B1" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -360,7 +282,7 @@
     "precoLitro": "3.20",
     "valor": "290.00",
      "carro": { "id" :"1350b6d2-d50e-11e7-9296-cec278b6b50a" },
-    "posto": { "id" :"7ad428f0-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" :"92F18D07-00AE-4AE1-B6B2-8F2CE18786B1" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -370,7 +292,7 @@
     "precoLitro": "3.10",
     "valor": "40.00",
      "carro": { "id" :"1350b6d2-d50e-11e7-9296-cec278b6b50a" },
-    "posto": { "id" :"7ad41ce8-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" :"92F18D07-00AE-4AE1-B6B2-8F2CE18786B1" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -380,7 +302,7 @@
     "precoLitro": "4.10",
     "valor": "300.00",
      "carro": { "id" :"7ad4549c-d4f7-11e7-9296-cec278b6b50a" },
-    "posto": { "id" :"7ad436d8-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" :"92F18D07-00AE-4AE1-B6B2-8F2CE18786B1" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -390,7 +312,7 @@
     "precoLitro": "4.10",
     "valor": "300.00",
      "carro": { "id" :"7ad4549c-d4f7-11e7-9296-cec278b6b50a" },
-    "posto": { "id" :"7ad436d8-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" :"92F18D07-00AE-4AE1-B6B2-8F2CE18786B1" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -400,7 +322,7 @@
     "precoLitro": "4.30",
     "valor": "150.00",
      "carro": { "id" :"7ad4549c-d4f7-11e7-9296-cec278b6b50a" },
-    "posto": { "id" :"7ad436d8-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" :"92F18D07-00AE-4AE1-B6B2-8F2CE18786B1" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -410,7 +332,7 @@
     "precoLitro": "4.00",
     "valor": "150.00",
      "carro": { "id" :"7ad43872-d4f7-11e7-9296-cec278b6b50a" },
-    "posto": { "id" :"7ad440ba-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" :"92F18D07-00AE-4AE1-B6B2-8F2CE18786B1" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -420,7 +342,7 @@
     "precoLitro": "4.10",
     "valor": "350.00",
      "carro": { "id" :"7ad4549c-d4f7-11e7-9296-cec278b6b50a" },
-    "posto": { "id" :"7ad419fa-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" :"92F18D07-00AE-4AE1-B6B2-8F2CE18786B1" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -430,7 +352,7 @@
     "precoLitro": "3.10",
     "valor": "100.00",
      "carro": { "id" :"7ad4393a-d4f7-11e7-9296-cec278b6b50a" },
-    "posto": { "id" :"7ad41ce8-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" :"92F18D07-00AE-4AE1-B6B2-8F2CE18786B1" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -440,7 +362,7 @@
     "precoLitro": "3.85",
     "valor": "260.00",
      "carro": { "id" :"7ad43872-d4f7-11e7-9296-cec278b6b50a" },
-    "posto": { "id" :"7ad428f0-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" :"92F18D07-00AE-4AE1-B6B2-8F2CE18786B1" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -450,7 +372,7 @@
     "precoLitro": "3.85",
     "valor": "260.00",
      "carro": { "id" :"1350b6d2-d50e-11e7-9296-cec278b6b50a" },
-    "posto": { "id" :"7ad4308e-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" :"92F18D07-00AE-4AE1-B6B2-8F2CE18786B1" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -460,7 +382,7 @@
     "precoLitro": "3.85",
     "valor": "260.00",
      "carro": { "id" :"1350b6d2-d50e-11e7-9296-cec278b6b50a" },
-    "posto": { "id" :"7ad4308e-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" :"92F18D07-00AE-4AE1-B6B2-8F2CE18786B1" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -470,7 +392,7 @@
     "precoLitro": "3.87",
     "valor": "20.00",
      "carro": { "id" :"1350b6d2-d50e-11e7-9296-cec278b6b50a" },
-    "posto": { "id" :"7ad436d8-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" :"92F18D07-00AE-4AE1-B6B2-8F2CE18786B1" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -480,7 +402,7 @@
     "precoLitro": "3.92",
     "valor": "150.00",
      "carro": { "id" :"1350b6d2-d50e-11e7-9296-cec278b6b50a" },
-    "posto": { "id" :"7ad440ba-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" :"92F18D07-00AE-4AE1-B6B2-8F2CE18786B1" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -490,7 +412,7 @@
     "precoLitro": "3.87",
     "valor": "50.00",
      "carro": { "id" :"7ad4549c-d4f7-11e7-9296-cec278b6b50a" },
-    "posto": { "id" :"7ad446e6-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" :"92F18D07-00AE-4AE1-B6B2-8F2CE18786B1" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -500,7 +422,7 @@
     "precoLitro": "3.95",
     "valor": "220.00",
      "carro": { "id" :"7ad4393a-d4f7-11e7-9296-cec278b6b50a" },
-    "posto": { "id" :"7ad455be-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" :"92F18D07-00AE-4AE1-B6B2-8F2CE18786B1" }
   },
   {
   "_class": "app.entity.Abastecimento",
@@ -510,6 +432,6 @@
     "precoLitro": "3.87",
     "valor": "200.00",
      "carro": { "id" :"7ad4393a-d4f7-11e7-9296-cec278b6b50a" },
-    "posto": { "id" :"7ad455be-d4f7-11e7-9296-cec278b6b50a" }
+    "postoExt": { "id" :"92F18D07-00AE-4AE1-B6B2-8F2CE18786B1" }
   }
 ]

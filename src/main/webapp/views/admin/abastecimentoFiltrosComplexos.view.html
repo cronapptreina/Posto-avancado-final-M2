@@ -67,9 +67,7 @@
                     </div>
                 </td>
                 <td class="">
-                    <div class="">
-                            {{rowData.posto.nome}}
-                    </div>
+                    <div class="">{{rowData.postoExt.name}}</div>
                 </td>
                 <td class="">
                     <div class="">
@@ -155,26 +153,10 @@
                                 </ui-select>
                          <!-- end if !model.hasCronappFramework() -->
                     </div>
-                </div>
-                    <datasource name="Posto" entity="api/cronapi/crud/app.entity.Posto" keys="id" class="" dependent-by="{{Abastecimento}}"></datasource>
+                </div><datasource name="PostoExt" entity="api/cronapi/query/vb94hwkrqwkm/" keys="" rows-per-page="100" on-before-create="" on-after-create="" on-before-update="" on-after-update="" on-before-delete="" on-after-delete="" on-after-fill="" data-component="crn-datasource" class="component-holder" id="" filter=""></datasource><div class="component-holder ng-binding ng-scope" data-component="crn-combobox-dynamic" id="crn-combobox-dynamic-653618"><div class="form-group"><label for="">{{'Posto' | translate}}</label><ui-select crn-datasource="PostoExt" ng-model="Abastecimento.active.postoExt" ng-disabled="disabled" theme="bootstrap" class="crn-select" ng-required="false"><ui-select-match placeholder="Select..." class="">{{$select.selected.name}}</ui-select-match><ui-select-choices repeat="rowData as rowData in datasource.data | filter : $select.search" class="" refresh="" refresh-deplay=""><div class="">{{rowData.name}}</div></ui-select-choices></ui-select></div></div>
+                    
 
-                <div data-component="crn-combobox-dynamic" id="crn-combobox-dynamic-posto" class="">
-                    <div class="form-group">
-                        <label for="combobox-dynamic-posto" class="">Posto</label>
- <!-- else for if !model.hasCronappFramework() -->
-                                <ui-select ng-model="Abastecimento.active.posto" crn-datasource="Posto" class="crn-select" id="combobox-dynamic-posto" ng-required="true" theme="bootstrap">
-                                    <ui-select-match class="" placeholder="Select...">
-                                        {{$select.selected.nome}}
-                                    </ui-select-match>
-                                    <ui-select-choices repeat="rowData in datasource.data | filter : $select.search" class="" refresh="" refresh-deplay="">
-                                        <div class="" data-container="true">
-                                            {{rowData.nome}}
-                                        </div>
-                                    </ui-select-choices>
-                                </ui-select>
-                         <!-- end if !model.hasCronappFramework() -->
-                    </div>
-                </div>
+                
                 <!-- NtoN  -->
                 <!-- NtoN  end-->
             </fieldset>

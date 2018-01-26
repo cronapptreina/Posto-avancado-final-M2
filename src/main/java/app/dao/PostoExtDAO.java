@@ -16,23 +16,23 @@ import org.springframework.transaction.annotation.*;
  * 
  * @generated
  */
-@Repository("PostoDAO")
+@Repository("PostoExtDAO")
 @Transactional(transactionManager="app-TransactionManager")
-public interface PostoDAO extends JpaRepository<Posto, java.lang.String> {
+public interface PostoExtDAO extends JpaRepository<PostoExt, java.lang.String> {
 
   /**
-   * Obtém a instância de Posto utilizando os identificadores
+   * Obtém a instância de PostoExt utilizando os identificadores
    * 
    * @param id
    *          Identificador 
    * @return Instância relacionada com o filtro indicado
    * @generated
    */    
-  @Query("SELECT entity FROM Posto entity WHERE entity.id = :id")
-  public Posto findOne(@Param(value="id") java.lang.String id);
+  @Query("SELECT entity FROM PostoExt entity WHERE entity.id = :id")
+  public PostoExt findOne(@Param(value="id") java.lang.String id);
 
   /**
-   * Remove a instância de Posto utilizando os identificadores
+   * Remove a instância de PostoExt utilizando os identificadores
    * 
    * @param id
    *          Identificador 
@@ -40,7 +40,7 @@ public interface PostoDAO extends JpaRepository<Posto, java.lang.String> {
    * @generated
    */    
   @Modifying
-  @Query("DELETE FROM Posto entity WHERE entity.id = :id")
+  @Query("DELETE FROM PostoExt entity WHERE entity.id = :id")
   public void delete(@Param(value="id") java.lang.String id);
 
 
@@ -49,27 +49,27 @@ public interface PostoDAO extends JpaRepository<Posto, java.lang.String> {
    * OneToMany Relation - Searchable fields - General search (Only strings fields)
    * @generated
    */
-  @Query("SELECT entity FROM Abastecimento entity WHERE entity.posto.id = :id AND (:search = :search)")
+  @Query("SELECT entity FROM Abastecimento entity WHERE entity.postoExt.id = :id AND (:search = :search)")
   public Page<Abastecimento> findAbastecimentoGeneralSearch(@Param(value="search") java.lang.String search, @Param(value="id") java.lang.String id, Pageable pageable);
 
   /** 
    * OneToMany Relation - Searchable fields - Specific search
    * @generated
    */
-  @Query("SELECT entity FROM Abastecimento entity WHERE entity.posto.id = :id AND (:data is null OR entity.data = :data) AND (:km is null OR entity.km = :km) AND (:valor is null OR entity.valor = :valor) AND (:precoLitro is null OR entity.precoLitro = :precoLitro)")
+  @Query("SELECT entity FROM Abastecimento entity WHERE entity.postoExt.id = :id AND (:data is null OR entity.data = :data) AND (:km is null OR entity.km = :km) AND (:valor is null OR entity.valor = :valor) AND (:precoLitro is null OR entity.precoLitro = :precoLitro)")
   public Page<Abastecimento> findAbastecimentoSpecificSearch(@Param(value="id") java.lang.String id, @Param(value="data") java.util.Date data, @Param(value="km") java.lang.Double km, @Param(value="valor") java.lang.Double valor, @Param(value="precoLitro") java.lang.Double precoLitro, Pageable pageable);
 
   /**
    * OneToMany Relation
    * @generated
    */
-  @Query("SELECT entity FROM Abastecimento entity WHERE entity.posto.id = :id")
+  @Query("SELECT entity FROM Abastecimento entity WHERE entity.postoExt.id = :id")
   public Page<Abastecimento> findAbastecimento(@Param(value="id") java.lang.String id, Pageable pageable);
   /**
    * ManyToOne Relation
    * @generated
    */
-  @Query("SELECT entity.carro FROM Abastecimento entity WHERE entity.posto.id = :id")
+  @Query("SELECT entity.carro FROM Abastecimento entity WHERE entity.postoExt.id = :id")
   public Page<Carro> listCarro(@Param(value="id") java.lang.String id, Pageable pageable);
 
   /**
@@ -77,7 +77,7 @@ public interface PostoDAO extends JpaRepository<Posto, java.lang.String> {
    * @generated
    */
   @Modifying
-  @Query("DELETE FROM Abastecimento entity WHERE entity.posto.id = :instanceId AND entity.carro.id = :relationId")
+  @Query("DELETE FROM Abastecimento entity WHERE entity.postoExt.id = :instanceId AND entity.carro.id = :relationId")
   public int deleteCarro(@Param(value="instanceId") java.lang.String instanceId, @Param(value="relationId") java.lang.String relationId);
 
 }

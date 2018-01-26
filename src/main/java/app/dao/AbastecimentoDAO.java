@@ -68,10 +68,10 @@ public interface AbastecimentoDAO extends JpaRepository<Abastecimento, java.lang
   public Page<Abastecimento> findAbastecimentosByCarro(@Param(value="id") java.lang.String id, Pageable pageable);
 
   /**
-   * Foreign Key posto
+   * Foreign Key postoExt
    * @generated
    */
-  @Query("SELECT entity FROM Abastecimento entity WHERE entity.posto.id = :id")
-  public Page<Abastecimento> findAbastecimentosByPosto(@Param(value="id") java.lang.String id, Pageable pageable);
+  @Query("SELECT entity FROM Abastecimento entity WHERE entity.postoExt.id = :id")
+  public Page<Abastecimento> findAbastecimentosByPostoExt(@Param(value="id") java.lang.String id, Pageable pageable);
 
 }

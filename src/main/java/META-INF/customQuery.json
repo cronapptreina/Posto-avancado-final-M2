@@ -927,5 +927,72 @@
 			"foreignKey": null
 		},
 		"serviceUrl": "api/cronapi/query/1hvb0lmg3dizq/{{Carro.active.marcaFIPE}}/"
+	},
+	"vb94hwkrqwkm": {
+		"customId": "listaPostos",
+		"queryName": "listaPostos",
+		"screen": "src/main/webapp/views/admin/abastecimentoadm.view.html",
+		"sourceType": "blockly",
+		"blockly": {
+			"blocklyClass": "blockly.PostoExt",
+			"blocklyMethod": "buscar",
+			"blocklyLanguage": "java",
+			"blocklyJson": {
+				"namespace": "blockly.PostoExt",
+				"classNameNew": "PostoExt",
+				"classNameOld": "PostoExt",
+				"sourcePath": "src/main/java/blockly/PostoExt.blockly",
+				"language": "java",
+				"class": "blockly.PostoExt",
+				"methods": [
+					{
+						"name": "buscar",
+						"hasReturn": "true",
+						"params": []
+					}
+				]
+			},
+			"blocklyFunctionCall": "cronapi.util.makeCallServerBlocklyAsync('blockly.PostoExt:buscar', null, null)",
+			"blocklyGETMethod": "buscar",
+			"blocklyPOSTMethod": "buscar",
+			"blocklyPUTMethod": "buscar",
+			"blocklyDELETEMethod": "buscar",
+			"blocklyFILTERMethod": "buscar"
+		},
+		"entitySimpleName": null,
+		"entityFullName": null,
+		"query": "",
+		"queryParamsValues": [],
+		"verbs": {
+			"GET": true,
+			"GETAuthorities": null,
+			"POST": true,
+			"POSTAuthorities": null,
+			"PUT": true,
+			"PUTAuthorities": null,
+			"DELETE": true,
+			"DELETEAuthorities": null,
+			"FILTER": true,
+			"FILTERAuthorities": null
+		},
+		"events": {
+			"beforeInsert": null,
+			"beforeUpdate": null,
+			"beforeDelete": null,
+			"afterInsert": null,
+			"afterUpdate": null,
+			"afterDelete": null,
+			"onNavigate": null,
+			"onGetData": null
+		},
+		"defaultValues": {},
+		"security": {},
+		"calcFields": {},
+		"calcFieldsSecurity": {},
+		"errorHandles": {
+			"primaryKey": null,
+			"foreignKey": null
+		},
+		"serviceUrl": "api/cronapi/query/vb94hwkrqwkm/"
 	}
 }

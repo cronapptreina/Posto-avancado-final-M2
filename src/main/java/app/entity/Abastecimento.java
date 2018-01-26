@@ -74,9 +74,9 @@ public class Abastecimento implements Serializable {
   * @generated
   */
   @ManyToOne
-  @JoinColumn(name="fk_posto", nullable = false, referencedColumnName = "id", insertable=true, updatable=true)
+  @JoinColumn(name="fk_postoExt", nullable = true, referencedColumnName = "id", insertable=true, updatable=true)
   
-  private Posto posto;
+  private PostoExt postoExt;
 
   /**
    * Construtor
@@ -207,22 +207,22 @@ public class Abastecimento implements Serializable {
   }
 
   /**
-   * Obtém posto
-   * return posto
+   * Obtém postoExt
+   * return postoExt
    * @generated
    */
   
-  public Posto getPosto(){
-    return this.posto;
+  public PostoExt getPostoExt(){
+    return this.postoExt;
   }
 
   /**
-   * Define posto
-   * @param posto posto
+   * Define postoExt
+   * @param postoExt postoExt
    * @generated
    */
-  public Abastecimento setPosto(Posto posto){
-    this.posto = posto;
+  public Abastecimento setPostoExt(PostoExt postoExt){
+    this.postoExt = postoExt;
     return this;
   }
 

@@ -69,16 +69,16 @@ public interface CarroDAO extends JpaRepository<Carro, java.lang.String> {
    * ManyToOne Relation
    * @generated
    */
-  @Query("SELECT entity.posto FROM Abastecimento entity WHERE entity.carro.id = :id")
-  public Page<Posto> listPosto(@Param(value="id") java.lang.String id, Pageable pageable);
+  @Query("SELECT entity.postoExt FROM Abastecimento entity WHERE entity.carro.id = :id")
+  public Page<PostoExt> listPostoExt(@Param(value="id") java.lang.String id, Pageable pageable);
 
   /**
    * ManyToOne Relation Delete
    * @generated
    */
   @Modifying
-  @Query("DELETE FROM Abastecimento entity WHERE entity.carro.id = :instanceId AND entity.posto.id = :relationId")
-  public int deletePosto(@Param(value="instanceId") java.lang.String instanceId, @Param(value="relationId") java.lang.String relationId);
+  @Query("DELETE FROM Abastecimento entity WHERE entity.carro.id = :instanceId AND entity.postoExt.id = :relationId")
+  public int deletePostoExt(@Param(value="instanceId") java.lang.String instanceId, @Param(value="relationId") java.lang.String relationId);
 
   /**
    * Foreign Key user
