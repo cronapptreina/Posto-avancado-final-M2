@@ -4,7 +4,7 @@ Aplicação Posto (para uso dos donos de carros) que acessa a aplicação multi-
 
 ## Como rodar
 
-Entre em ide.cronapp.io
-Crie um novo projeto Web com a opção 'O projeto está sob controle de versão?'
-Informe a URL para importar https://github.com/cronapptreina/PostoUsuario-final-M2
-Clique em Executar (seta verde)
+1. Entre em ide.cronapp.io
+2. Crie um novo projeto Web com a opção 'O projeto está sob controle de versão?'
+3. Informe a URL para importar https://github.com/cronapptreina/PostoUsuario-final-M2
+4. Clique em Executar (seta verde)
